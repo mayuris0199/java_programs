@@ -10,7 +10,7 @@ public class Q1
     {
       Scanner sc = new Scanner(System.in);
       int a,b,c;
-      a = sc.nextInt();
+      a = sc.nextInt(); 
       b = sc.nextInt();
        
       c = a + b;

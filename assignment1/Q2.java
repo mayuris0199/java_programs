@@ -2,7 +2,6 @@
    Accept a number and print the 
    square of number.
  */
-package assignment.pkg1;
 import java.util.Scanner;
 public class Q2
 {
@@ -19,3 +18,8 @@ public class Q2
     
     
 }
+
+/* -----------------OUTPUT---------------
+      25
+      square of number is:- 625
+*/

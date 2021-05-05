@@ -1,10 +1,9 @@
-/*
- Accept the number and check whether the number is greater than 100.
+ /*
+    Accept the number and check whether the number is greater than 100.
  */
-package assignment2;
+
 import java.util.Scanner;
-public class Q1 
-{
+ public class Q1 {
     public static void main(String[] args)
     {
        Scanner sc = new Scanner(System.in);
@@ -22,3 +21,13 @@ public class Q1
     }
     
 }
+
+/*----------------OUTPUT----------------------
+    78
+    number is less than 100
+
+    or
+
+    387
+    number is greater than 100
+*/    

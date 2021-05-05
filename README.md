@@ -1,8 +1,11 @@
 # questions of all assignments.
 # assignment 1
 1] Accept Two numbers and print the sum of the two numbers.
+
 2] Accept a number and print the square of number.
+
 3] Accept a number and print the cube of number.
+
 4] Accept length and breadth of rectangle and calculate area.
 5] Accept length and heigth of triangle and calculate area.
 6] Accept the radius of circle and calculate (area = pi*r*r) and

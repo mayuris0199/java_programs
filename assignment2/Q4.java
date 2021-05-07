@@ -16,6 +16,7 @@ import java.util.Scanner;
        }
        else
             System.out.println("number is odd!");
+     sc.close();     
     }    
 }
 

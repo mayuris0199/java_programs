@@ -30,7 +30,8 @@ public class Q9
          System.out.println("roll number="+roll_No);
          System.out.println("number ="+number);
          System.out.println("total marks out of 300 is="+total_Marks);
-         System.out.println("percentage of student="+per);   
+         System.out.println("percentage of student="+per); 
+         sc.close();  
     }
 }
 

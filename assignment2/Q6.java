@@ -2,7 +2,7 @@
     Accept the number and check whether the number is divisible by 5 or 7.
  */
 import java.util.Scanner;
- public class Q6 
+public class Q6 
 {
     public static void main(String[] args)
     {
@@ -16,6 +16,7 @@ import java.util.Scanner;
        }
        else
             System.out.println("number is not divisible by 5 and 7!!");
+            sc.close();
     }     
 }
 

@@ -4,7 +4,7 @@
 
 import java.util.Scanner;
 
- public class Q2
+public class Q2
   {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -17,6 +17,8 @@ import java.util.Scanner;
         }
         else
             System.out.println( "u are not eligible for vote!");
+
+     sc.close();    
     }
 }
 /*---------------OUTPUT----------------

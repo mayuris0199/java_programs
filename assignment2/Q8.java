@@ -17,6 +17,7 @@ public class Q8
        }
        else
             System.out.println("year is not a leap!");
+            sc.close();
     }   
 }
 

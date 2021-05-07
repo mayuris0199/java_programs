@@ -41,6 +41,7 @@ public class Q10
          System.out.println("gross_Salary:-"+ gross_Salary);
          System.out.println("i_tax:-"+i_tax);
          System.out.println("net_Salary is :-"+net_Salary);
+         sc.close();
     }
     
 }

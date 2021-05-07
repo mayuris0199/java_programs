@@ -22,7 +22,8 @@ public class Q8
          
          System.out.println("total marks out of 500:-"+total);
          System.out.println("percentage :-"+per);
-     }
+         sc.close();     
+        }
 }
 
 /*------------------OUTPUT-------------------

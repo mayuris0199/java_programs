@@ -3,19 +3,20 @@
  */
 
 import java.util.Scanner;
- public class Q10
+public class Q10
 {
   public static void main(String[] args)
     {
        Scanner sc = new Scanner(System.in);
        
-       int num1,num2,num3,t1,t2;
-       
+       int num1,num2,num3;
+    
        num1 = sc.nextInt();
        num2 = sc.nextInt();
        num3 = sc.nextInt();
-        
-      if(num1<num2)
+
+              
+        if(num1<num2)
       {
           if(num1<num3)
           {
@@ -56,6 +57,7 @@ import java.util.Scanner;
       {
         System.out.println("biggest number is"+" "+num3);  
       }
+      sc.close();
     }   
       
 }

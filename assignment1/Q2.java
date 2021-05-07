@@ -14,6 +14,7 @@ public class Q2
        square = a * a ;
        
        System.out.println("square of number is:- "+ square);
+       sc.close();
     }
     
     

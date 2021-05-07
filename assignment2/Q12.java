@@ -31,6 +31,7 @@ import java.util.Scanner;
         {
            System.out.println("it is scalene triangle");  
         }    
+        sc.close();
     }      
 }
 

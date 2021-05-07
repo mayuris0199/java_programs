@@ -3,8 +3,9 @@
  */
 
 import java.util.Scanner;
- public class Q1 {
-    public static void main(String[] args)
+public class Q1 
+ {
+ public static void main(String[] args)
     {
        Scanner sc = new Scanner(System.in);
        
@@ -18,6 +19,8 @@ import java.util.Scanner;
        }
        else
            System.out.println("number is less than 100");
+
+      sc.close();
     }
     
 }

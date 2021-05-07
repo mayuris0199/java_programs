@@ -10,7 +10,7 @@ public class Q1 {
       b = sc.nextInt();  
       c = a + b;
       System.out.println("Sum of two numbers :- "+ c);
-      
+      sc.close();
     }
     
 }

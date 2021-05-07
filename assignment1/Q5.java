@@ -13,6 +13,7 @@ public class Q5 {
         area = (int)(0.5*length*heigth);
         
         System.out.println("area of triangle is:-" +area);
+        sc.close();
     }
 }
 

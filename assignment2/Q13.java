@@ -9,7 +9,7 @@ import java.util.Scanner;
    public static void main(String[] args) 
    {
        Scanner sc =new Scanner(System.in);
-       int science,arts;
+      // int science,arts;
       String m = sc.next();
        switch(m)
        {
@@ -24,7 +24,7 @@ import java.util.Scanner;
            default:
                System.out.println("in valid");
       }
-      
+      sc.close(); 
      
     }      
 }

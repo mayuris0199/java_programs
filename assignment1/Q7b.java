@@ -9,7 +9,7 @@ public class Q7b
   public static void main(String[] args)
   {
        Scanner sc = new Scanner(System.in);
-      int num1,num2,temp;
+      int num1,num2;
       
       num1 = sc.nextInt();
       num2 = sc.nextInt();
@@ -21,6 +21,7 @@ public class Q7b
       num1 = num1 - num2;
       
       System.out.println("number after swapping :-"+num1+" "+num2);
+      sc.close();
     
   }
 }

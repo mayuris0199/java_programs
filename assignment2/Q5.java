@@ -21,6 +21,7 @@ import java.util.Scanner;
        }     
        else
             System.out.println("ch is not a alphabet!");
+             sc.close();       
     }   
 }
 

@@ -45,6 +45,7 @@ import java.util.Scanner;
         {
             System.out.println("exit");
         } 
+        sc.close();
     }    
 }
 

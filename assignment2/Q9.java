@@ -25,6 +25,7 @@ public class Q9
            System.out.println("number is more than two digit!");
 
        }
+       sc.close();
     }   
 }
 

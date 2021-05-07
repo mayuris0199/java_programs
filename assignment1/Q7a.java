@@ -23,6 +23,7 @@ public class Q7a
       
       System.out.println("swapped value of num1:-"+ num1);
       System.out.println("swapped value of num2:-"+ num2);
+      sc.close();
     }
 }
 

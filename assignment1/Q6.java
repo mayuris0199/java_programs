@@ -18,6 +18,7 @@ public class Q6
       
       System.out.println("Area of circle:-" + area);
       System.out.println("circumference of circle:-" + circumference);   
+      sc.close();
   }  
 }
 /*---------------OUTPUT---------------

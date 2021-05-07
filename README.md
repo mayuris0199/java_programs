@@ -1,4 +1,6 @@
 # Questions of all assignments.
+#___________________________________________________________________________________________________________________
+
 # assignment 1
 1] Accept Two numbers and print the sum of the two numbers.
 
@@ -32,6 +34,8 @@
         gross salary = basic salary + Hra +Da +Ta
         i tax = basic salary * 10%
         net salary = gross salary - i tax
+
+#___________________________________________________________________________________________________________________
 
 # assignment2
 1]  Accept the number and check whether the number is greater than 100.
@@ -75,4 +79,69 @@
       1) positive or negative. 
       2) odd or even.
 
-         
+#__________________________________________________________________________________________________________________      
+
+# assignment3
+1]  Print all numbers from 1 to 10.
+
+2]   Print all numbers from 1 to 10 in decending order.
+
+3]   Print all the even numbers from 1 to 20 without using if statement.
+
+4]   Print all the odd numbers from 1 to 20 without using if statement.
+
+5]   Print all the number divisible by 3 and 5 in the range of 1 to 20.
+
+6]   Accept a number and print the multiplication table of that number.
+
+7]   Accept two numbers from user and print all even number between the range.
+
+8]   Accept number from user and print reverse of that number.
+
+9]   Print the sum of the digits of number.
+
+10]  Accept a name and print it as many times as the user demands.
+
+11]  Accept number and check whether number is prime or not.
+
+12]  print all prime numbers from 1 to 50.
+
+13]  print the faonacci series of n numbers.
+
+14]  print the following format.
+
+      a) 1      
+         12
+         123
+         1234 
+
+      b) 1   
+         22     
+         333     
+         4444   
+
+      c) *
+         **
+         ***
+         ****  
+
+      d)   *
+          * *
+         * * *
+        * * * *    
+
+      e)  a
+          bb
+          ccc
+          dddd
+
+      f)  a
+          ab
+          abc
+          abcd     
+
+      g)  a
+          bc   
+          def
+          ghij     
+#__________________________________________________________________________________________________________________         

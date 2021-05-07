@@ -15,6 +15,7 @@ public class Q4
       area = length * breadth;
       
       System.out.println("Area of rectangle is:-" + area);
+      sc.close();
   }
 }
 

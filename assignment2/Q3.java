@@ -2,7 +2,7 @@
   Accept the number and check whether the number is positive or negative.
  */
 import java.util.Scanner;
- public class Q3
+public class Q3
 {
   public static void main(String[] args)
     {
@@ -16,6 +16,8 @@ import java.util.Scanner;
        }
        else
             System.out.println("number is negative!");
+           
+      sc.close();
     }   
        
 }

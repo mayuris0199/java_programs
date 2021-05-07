@@ -13,7 +13,7 @@ public class Q3
     cube = a * a * a;
     
     System.out.println("square of number is:- "+ cube);
- 
+    sc.close();
    }
 }
 

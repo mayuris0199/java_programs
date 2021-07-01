@@ -1,4 +1,4 @@
-/*
+ /*
      Accept two dimensional array numbers and print it.
 */    
 import java.util.Scanner;

@@ -22,60 +22,70 @@ public class Q10 {
 
         int c[][] = new int[n][p];
 
-        System.out.println("Enter elements of matrix A:");
-        for(int i=0;i<m;i++)
+        if(n!=p)
         {
-            for(int j=0;j<n;j++)
-            {
-                a[i][j] = sc.nextInt();
-            }
+            System.out.println("not able to multiplay ");
         }
-        System.out.println("matrix A:");
-        for(int i=0;i<m;i++)
-        {
-            for(int j=0;j<n;j++)
-            {
-                System.out.print(a[i][j]+" ");
-            }
-            System.out.println();
-        }
+        else
+         {
+                System.out.println("Enter elements of matrix A:");
+                for(int i=0;i<m;i++)
+                {
+                    for(int j=0;j<n;j++)
+                    {
+                        a[i][j] = sc.nextInt();
+                    }
+                }
+                System.out.println("matrix A:");
+                for(int i=0;i<m;i++)
+                {
+                    for(int j=0;j<n;j++)
+                    {
+                        System.out.print(a[i][j]+" ");
+                    }
+                    System.out.println();
+                }
 
-        System.out.println("Enter elements of matrix B:");
-        for(int i=0;i<p;i++)
-        {
-            for(int j=0;j<q;j++)
-            {
-                b[i][j] = sc.nextInt();
-            }
-        }
-        System.out.println("matrix B:");
-        for(int i=0;i<p;i++)
-        {
-            for(int j=0;j<q;j++)
-            {
-                System.out.print(b[i][j]+" ");
-            }
-            System.out.println();
-        }
-        
-        for(int i=0;i<m;i++)
-        {
-            for(int j=0;j<q;j++)
-            {
-                c[i][j] = a[i][j] * b[i][j];
-            }
-        }
+                System.out.println("Enter elements of matrix B:");
+                for(int i=0;i<p;i++)
+                {
+                    for(int j=0;j<q;j++)
+                    {
+                        b[i][j] = sc.nextInt();
+                    }
+                }
+                System.out.println("matrix B:");
+                for(int i=0;i<p;i++)
+                {
+                    for(int j=0;j<q;j++)
+                    {
+                        System.out.print(b[i][j]+" ");
+                    }
+                    System.out.println();
+                }
+                
+                for(int i=0;i<m;i++)
+                {
+                    for(int j=0;j<q;j++)
+                    {
+                        for(int k=0;k<p;k++)
+                        {
+                            c[i][j] = c[i][j] + a[i][k] * b[k][j];
+                        }
+                        
+                    }
+                }
 
-        System.out.println("Multiplication of matrix A and matrix B is:");
-        for(int i=0;i<m;i++)
-        {
-           for(int j=0;j<q;j++)
-             {
-               System.out.print(c[i][j]+" ");
-             }
-             System.out.println();
-        }     
-
+                System.out.println("Multiplication of matrix A and matrix B is:");
+                for(int i=0;i<m;i++)
+                {
+                for(int j=0;j<q;j++)
+                    {
+                    System.out.print(c[i][j]+" ");
+                    }
+                    System.out.println();
+                }     
+         }
         sc.close();
     }
     
@@ -116,9 +126,8 @@ public class Q10 {
     0 2
     3 0
     Multiplication of matrix A and matrix B is:
-    4 40
-    0 2
-    6 0
+    31 36
+    22 37
+    11 22
 */
 
-incomplete
